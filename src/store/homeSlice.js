@@ -8,6 +8,7 @@ export const homeSlice = createSlice({
     genres:{}
   },
   reducers: {
+    // state =intialstate
     getApiConfiguraton:(state,action)=>{
         state.url=action.payload;
     },
